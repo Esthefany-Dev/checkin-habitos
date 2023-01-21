@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Righteous&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Righteous&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Habits</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="../assets/logo.svg" alt="Logotipo Habits"/>
-        <button class="btn-registrarDia"><img src="../assets/icon-plus.svg" alt="Icone Sinal de Mais Roxo">
-            <div>Registrar o meu dia</div>
-        </button>        
+      <img src="../assets/logo.svg" alt="Logotipo Habits" />
+      <button class="btn-registrarDia">
+        <img src="../assets/icon-plus.svg" alt="Icone Sinal de Mais Roxo" />
+        <div>Registrar o meu dia</div>
+      </button>
     </header>
 
     <form id="form-habits">
-        <div class="habits">
-            <div class="habit" data-name="run"><img src="../assets/icon-run.svg" alt="Correr"/></div>
-            <div class="habit" data-name="water"><img src="../assets/icon-water.svg" alt="Água"/></div>
-            <div class="habit" data-name="exercise"><img src="../assets/icon-muscle.svg" alt="Exercicio" /></div>
-            <div class="habit" data-name="sleep"><img src="../assets/icon-sleep.svg" alt="Dormir"/></div>
-            <div class="habit" data-name="animal"><img src="../assets/icon-animals.svg" alt="Animal"/></div>
-            <div class="habit" data-name="food"><img src="../assets/icon-diet.svg" alt="Comida"/></div>
+      <div class="habits">
+        <div class="habit" data-name="run">
+          <img src="./assets/icon-run.svg" alt="Correr" />
         </div>
+        <div class="habit" data-name="water">
+          <img src="./assets/icon-water.svg" alt="Água" />
+        </div>
+        <div class="habit" data-name="exercise">
+          <img src="./assets/icon-muscle.svg" alt="Exercicio" />
+        </div>
+        <div class="habit" data-name="sleep">
+          <img src="./assets/icon-sleep.svg" alt="Dormir" />
+        </div>
+        <div class="habit" data-name="animal">
+          <img src="./assets/icon-animals.svg" alt="Animal" />
+        </div>
+        <div class="habit" data-name="food">
+          <img src="../assets/icon-diet.svg" alt="Comida" />
+        </div>
+      </div>
 
-        <div class="days"></div>
+      <div class="days"></div>
     </form>
 
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
